@@ -1,0 +1,50 @@
+/*!
+ * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+ 
+ @font-face {
+    font-family: pixel;
+    src: url(../fonts/8bit.ttf);
+}
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+	font-family: pixel;
+}
+
+.full {
+  background: url(../images/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.vertical-center {
+display: table-cell;
+vertical-align: middle;
+}
+
+/* center the navbar*/
+.center.navbar .nav,
+.center.navbar .nav > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
+
+.center .navbar-inner {
+    text-align:center;
+	margin-top:10px;
+}
+
+.center .dropdown-menu {
+    text-align: left;
+}
+
